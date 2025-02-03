@@ -86,6 +86,6 @@ DOWNLOAD_TEXT_URL = "https://t.me/howtodownloadmovies5"
 
    # Custom Caption Under Button #
 CAPTION_BUTTON = "Get Updates"
-CAPTION_BUTTON_URL = "https://t.me/LazyDeveloper"
+CAPTION_BUTTON_URL = "https://t.me/movies_bangla_official"
 
    # Auto Delete For Bot Sending Files #
