@@ -11,7 +11,7 @@ def is_enabled(value, default):
         return default
 
 # Bot information
-SESSION = environ.get('SESSION', 'LazyPrincess')
+SESSION = environ.get('SESSION', 'Neu_autofilter_bot')
 API_ID = int(environ.get('API_ID', '26078268'))
 API_HASH = environ.get('API_HASH', 'fd0442eaf9e376706050dc8cada3ca4d')
 BOT_TOKEN = environ.get('BOT_TOKEN', "")
@@ -36,8 +36,8 @@ AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
 # MongoDB information
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://movie1:movie1@movie1.ifhuc.mongodb.net/?retryWrites=true&w=majority&appName=movie1")
-DATABASE_NAME = environ.get('DATABASE_NAME', "movie 1")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
+DATABASE_NAME = environ.get('DATABASE_NAME', "movie1")
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'movie1')
 
 # Others
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002329831146'))
